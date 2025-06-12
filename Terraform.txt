@@ -1,0 +1,33 @@
+What is Terraform ?
+-----------------
+Terraform is a application, by using this application we can create a infrastructure for cloud i.e. AWS,azure,GCP etc.
+
+Installation of terraform:
+-------------------------
+* Go to official website i.e. https://developer.hashicorp.com/terraform/install.
+* choose on which platform want to install ex: windows, Linux, MAC.
+
+Setup Terraform for AWS:
+-----------------------
+step-1:
+* Install AWS CLI from official website.
+	- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+* After going to that website choose on which platform you want to install ex: mac,windows,linux.
+* execute the following commands to install.
+
+step-2:
+* we can configure AWS in two ways 1. IAM(Identify and Access Management) and 2. root user.
+1. Configure through root user
+* click on your user name right hand side top.
+* click on "Security credentials"
+* under access key click on create access key.
+* put check mark for "I understand for creating root assess key"
+* Now open terminal, VS-code or git bash in your local system and give command "aws configure".
+* it will ask for Access key, secret Access key, default zone.
+
+2. create an AWS IAM user:
+* To interact with AWS programmatically, you should create an IAM (Identity and Access Management) user with appropriate permissions. Here's how to create one:
+	a. Log in to the AWS Management Console with an account that has administrative privileges.
+	b. Navigate to the IAM service.
+	c. Click on "Users" in the left navigation pane and then click "Add user."
+
